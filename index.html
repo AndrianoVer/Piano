@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>	
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+<body>
+	<div class="piano-wrap">
+		<div class="piano-inner">
+			<div class="container">
+				<div onclick="playAudio()" class="item">
+					<p>A</p>
+					<audio id="sound-A" src="piano-sound/1.mp3"></audio>
+				</div>
+				<div onclick="playAudio()" class="item">
+					<p>S</p>
+					<audio id="sound-S" src="piano-sound/2.mp3"></audio>
+				</div>
+				<div class="item">
+					<p>D</p>
+					<audio id="sound-D" src="piano-sound/3.mp3"></audio>
+				</div>
+				<div class="item">
+					<p>F</p>
+					<audio id="sound-F" src="piano-sound/4.mp3"></audio>
+				</div>
+				<div class="item">
+					<p>G</p>
+					<audio id="sound-G" src="piano-sound/5.mp3"></audio>
+				</div>
+				<div class="item">
+					<p>H</p>
+					<audio id="sound-H" src="piano-sound/6.mp3"></audio>
+				</div>
+				<div class="item">
+					<p>J</p>
+					<audio id="sound-J" src="piano-sound/7.mp3"></audio>
+				</div>
+				<div class="item">
+					<p>K</p>
+					<audio id="sound-K" src="piano-sound/8.mp3"></audio>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script src="node_modules/lodash/lodash.min.js"></script>
+	<script src="js/app-hw.js"></script>
+</body>
+</html>
