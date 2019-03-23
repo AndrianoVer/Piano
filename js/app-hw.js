@@ -1,8 +1,7 @@
+
 const pianoItem = document.querySelectorAll('.item');
-console.log(pianoItem);
 
 let pianoButtonA = document.getElementById('sound_A');
-console.log(pianoButtonA);
 let pianoButtonS = document.getElementById('sound_S');
 let pianoButtonD = document.getElementById('sound_D');
 let pianoButtonF = document.getElementById('sound_F');
@@ -13,22 +12,9 @@ let pianoButtonK = document.getElementById('sound_K');
 
 pianoItem.forEach(item => {			
 	item.addEventListener('click', function playAudio() {
-		pianoButtonA.play();
-		pianoButtonS.play();
-		pianoButtonD.play();
-		pianoButtonF.play();
-		pianoButtonG.play();
-		pianoButtonH.play();
-		pianoButtonJ.play();
-		pianoButtonK.play();		
-	})
-	return 		
+		pianoButtonA.play();		
+	})	
 });
-
-function press_button(){
-	console.log('You press F button');
-}
-
 
 document.addEventListener('keydown', function(press){
 	switch (press.keyCode){
